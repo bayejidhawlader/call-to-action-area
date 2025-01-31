@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@1,14..32&family=Plus+Jakarta+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Inter", serif;
+    line-height: 1.8;
+    color: #313435;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.cta-area-inner {
+    display: flex;
+}
+
+.cta-text {
+    width: 40%;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.cta-boxed {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    /* flex-direction: column; */
+}
+
+.single-cta-box {
+    width: 50%;
+}
+.cta-box-icon {
+    width: 60px;
+    background-color: #F4F9FC;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.single-cta-box-inner {
+    box-shadow: 0 0 10px #4e49494a;
+    border-radius: 20px;
+    padding: 40px;
+    background: #fff;
+}
+
+.single-cta-box {
+    padding: 0 15px 30px 15px;
+}
+
+.cta-box-icon h3 {
+    /* font-size: 40px; */
+}
+
+.single-cta-box-inner h3 {
+    font-size: 23px;
+    margin: 4px 0;
+}
+
+.single-cta-box-inner p {
+    font-size: 18px;
+}
+
+.cta-text h2 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+.cta-text h4 {
+    font-size: 18px;
+}
+
+.cta-text p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cta-text ul {
+    padding-left: 14px;
+}
+
+.cta-area {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-area:after {
+    right: 0;
+    top: 10%;
+    /* left: 10%; */
+    height: 80%;
+    width: 50%;
+    content: "";
+    background: #F4F4F9;
+    position: absolute;
+    z-index: -1;
+}
